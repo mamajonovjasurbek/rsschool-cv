@@ -5,10 +5,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>RS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV</title>
 </head>
 <body>
-    <h1>Start</h1>
-    <script src="script.js"></script>
+    <header>
+        <div class="_contianer">
+            <div class="header__blocks">
+                <a href="https://rs.school/js/" class="header__logo">
+                    <img src="https://rs.school/images/rs_school_js.svg " alt="logo">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__items">
+                        <li class="header__item">
+                            <a href="#header">Main</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#footer">Contacts</a>
+                        </li>
+                     
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- https://rs.school/images/rs_school_js.svg    logo-->  
+        <!-- <img src="https://lh3.googleusercontent.com/fuA_XvWH4IB3tBQL3xxTb3xWwCH847pQeoKTu7fwx8cka4xvvFgzFmBAxmmrvEddSzs6NOmKBHlTGIFt8WPboSsjeDvu17l4y9qxBOkFhsfSR36iYW_7pV50lTq4VU1LwREFq0mc=w2400" alt=""> -->
+    </header>
+    <main>
+        <div class="_contianer">
+            <section class="about">
+                <div class="about__items">
+                    <div class="about__item">
+                        <h2 class="tittle">
+                            MY NAME IS
+                        </h2>
+                        <h1 class="name">
+                            Mamajonov <span>Jasurbek</span>
+                        </h1>
+                        <div class="about__text">
+                            Student, I have been programming for almost 3 years, but so far I have no experience in serious projects. Optimist, sociable and responsible. I see my future in the IT sphere, exactly as a front-end developer and I will become one.
+                        </div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__photo">
+                            <img src="https://lh3.googleusercontent.com/fuA_XvWH4IB3tBQL3xxTb3xWwCH847pQeoKTu7fwx8cka4xvvFgzFmBAxmmrvEddSzs6NOmKBHlTGIFt8WPboSsjeDvu17l4y9qxBOkFhsfSR36iYW_7pV50lTq4VU1LwREFq0mc=w2400" alt="my photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="study">
+                <h2 class="tittle">
+                    LEARNING PATH
+                </h2>
+                <div class="name">Education & Skills</div>
+                <div class="study__blocks">
+                    <div class="study__block">
+                        <div class="study__items">
+                            <div class="study__item">
+                                <div class="study__item-tittle">
+                                    Andijan city school №2
+                                </div>
+                                <div class="study__item-date">
+                                    2007-2016
+                                </div>
+                            </div>
+                            <div class="study__item">
+                                <div class="study__item-tittle">
+                                    Andijan Information technology college
+                                </div>
+                                <div class="study__item-subtittle">
+                                    Programmer engineering specialist
+                                </div>
+                                <div class="study__item-date">
+                                    2016-2019
+                                </div>
+                            </div>
+                            <div class="study__item">
+                                <div class="study__item-tittle">
+                                    Tashkent Information technology university Ferghana branch
+                                </div>
+                                <div class="study__item-subtittle">
+                                    Programmer
+                                </div>
+                                <div class="study__item-date">
+                                    2019-2023
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="study__block">
+                        <div class="study__skills skills">
+                            <div class="skills__text">
+                                For 2 years I have been learning front-end. You can see my stack of programming below.
+                            </div>
+                            <div class="skills__items">
+                                <div class="skills__item">
+                                    <div class="skills__item-name">
+                                        <i class="fa-brands fa-html5"></i>
+                                        Html
+                                    </div>
+                                    <div class="skills__item-name">
+                                        <i class="fa-brands fa-css3-alt"></i>
+                                        Css, Sass, Scss
+                                    </div>
+                                    <div class="skills__item-name">
+                                        <i class="fa-brands fa-js"></i>
+                                        Javascript
+                                    </div>
+                                    <div class="skills__item-name">
+                                        <i class="fa-brands fa-react"></i>
+                                        Some of React))
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="code">
+                <h2 class="tittle">
+                    Coding experience
+                </h2>
+                <div class="code__name">
+                    Task from Codewars
+                </div>
+                <div class="code__task">
+                    Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
+                </div>
+                <pre class="code__example">
+var min = function(list){
+
+    return Math.min(...list);
+}
+
+var max = function(list){
+
+    return Math.max(...list);
+}
+                </pre>
+            </section>
+        </div>
+        
+    </main>
+    <footer> 
+        
+        <div class="_contianer">
+            <a href="https://rs.school/js/" class="footer__logo">
+                <img src="https://rs.school/images/rs_school_js.svg " alt="logo">
+            </a>
+            
+            <div class="tittle">Contacts</div>
+            <div class="footer__contacts contacts">
+                <ul class="contacts__items">
+                    <li class="contacts__item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:998999070321">
+                            +998 (99) 907-03-21
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:mamajanov.jasurbek23@gmail.com">
+                            mamajanov.jasurbek23@gmail.com
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/">
+                            mamajonovjasurbek
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
